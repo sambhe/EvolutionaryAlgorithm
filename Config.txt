@@ -1,0 +1,13 @@
+[Jupyter Experiment]
+name = Feature Reduction
+kmersize = 6
+min_ngram = 1
+max_ngram = 1
+dim_reduction_type = PCA
+
+[GA Setup]
+no_generations=100
+no_individuals=90
+crossover_rate=0.7
+mutation_rate=0.1
+featureset_size=10
